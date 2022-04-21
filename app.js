@@ -1,5 +1,6 @@
 const current = document.querySelector('#current');
 const photos = document.querySelectorAll('.photos img');
+
 const opacity = 0.4;
 
 photos.forEach(img => img.addEventListener('click', e => (current.src = e.target.src)));
